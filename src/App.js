@@ -38,6 +38,7 @@ export default function App() {
       <TopSection submitted={submitted} />
 
       {/*-----Input'unuz burada olacak----------*/}
+      <input type="text" className="name-input" maxLength={16} placeholder="Karakterinizin Adını giriniz" required value={playerName} onChange={(e) => setPlayerName(e.target.value)} disabled={submitted}/>
 
       {/*-----Input'unuz burada olacak----------*/}
 
